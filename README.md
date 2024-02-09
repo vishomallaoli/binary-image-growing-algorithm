@@ -41,7 +41,13 @@ javac growregion.java
 ```bash
 java growregion /path/to/your/image.pgm targetValue
 ```
-
+Example:
+```bash
+java growregion /path/to/your/test0.pgm 255
+```
+```bash
+java growregion /path/to/your/test0.pgm 0
+```
 ## Contribution Guidelines
 
 The open-source ecosystem thrives on collaboration and innovation. We warmly welcome contributions that enhance the functionality or efficiency of the **Binary Image Growing Algorithm**.
